@@ -1,141 +1,121 @@
-# TaskFlow -- Smart Task Management Dashboard
+# ✦ TaskFlow – Smart Task Management Dashboard
 
-A responsive task management web application built with **HTML5, CSS3
-and vanilla JavaScript**. TaskFlow provides a simple workspace to
-create, organize, prioritize and track everyday tasks.
+A simple and modern task management web application developed to help users organize daily activities, manage priorities and track their productivity.
 
-> **Project type:** Personal portfolio project\
-> **Status:** Frontend project\
-> **Editor:** Visual Studio Code
+TaskFlow provides a clean dashboard where users can create tasks, update their progress and monitor completed work in one place.
 
-## Overview
+## 📌 Project Overview
 
-TaskFlow is designed to help users keep track of their work in one
-place. The dashboard displays task statistics and completion progress,
-while task management tools allow users to create, update, search,
-filter and remove tasks.
+TaskFlow is a responsive web-based productivity application developed using HTML, CSS and JavaScript. It provides an easy way to manage everyday tasks through an interactive dashboard.
 
-## Features
+The application uses browser Local Storage to save task information, allowing users to access their saved tasks even after refreshing the page.
 
--   **Dashboard overview** -- view total tasks, tasks in progress,
-    completed tasks and completion rate.
--   **Task management** -- create, edit and delete tasks.
--   **Task status** -- organize tasks as To do, In progress or
-    Completed.
--   **Priority levels** -- assign High, Medium or Low priority.
--   **Due dates** -- optionally add a due date to a task.
--   **Search** -- find tasks by their name or description.
--   **Priority filtering** -- filter the task list by priority.
--   **Task views** -- switch between Overview, My tasks and Completed.
--   **Progress visualization** -- view the completion percentage.
--   **Dark mode** -- switch between light and dark appearance.
--   **Responsive layout** -- use the dashboard on desktop, tablet and
-    mobile screens.
--   **Local data persistence** -- tasks are saved in the browser using
-    Local Storage.
+## ✨ Key Features
 
-## Technologies Used
+- **Dashboard Overview** – View total tasks, in-progress tasks and completed tasks.
+- **Task Management** – Create, edit and delete tasks.
+- **Priority Management** – Assign High, Medium and Low priorities.
+- **Task Status** – Organize tasks into To Do, In Progress and Completed.
+- **Search Functionality** – Quickly find tasks using the search field.
+- **Priority Filtering** – Filter tasks according to their priority.
+- **Progress Tracking** – View task completion statistics.
+- **Dark Mode** – Switch between light and dark appearance.
+- **Local Storage** – Automatically save task information in the browser.
+- **Responsive Design** – Access the application on desktop, tablet and mobile devices.
 
-  -----------------------------------------------------------------------
-  Technology                          Purpose
-  ----------------------------------- -----------------------------------
-  HTML5                               Application structure and content
+## 🛠️ Technologies Used
 
-  CSS3                                Layout, styling, responsive design
-                                      and themes
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive layout |
+| JavaScript | Application functionality and interactions |
+| Local Storage | Client-side data storage |
+| Visual Studio Code | Development environment |
 
-  JavaScript (Vanilla)                Task operations, filtering,
-                                      dashboard updates and interactions
+## 📂 Project Structure
 
-  Browser Local Storage               Saving task data locally in the
-                                      browser
-
-  Visual Studio Code                  Development environment
-  -----------------------------------------------------------------------
-
-## Project Structure
-
-``` text
-TaskFlow_Portfolio_Project/
-├── index.html     # Main application page
-├── style.css      # Styling and responsive layout
-├── script.js      # Application logic and Local Storage
-└── README.md      # Project documentation
+```text
+TaskFlow/
+│
+├── index.html       # Main application page
+├── style.css        # Styling and responsive design
+├── script.js        # Application logic
+└── README.md        # Project documentation
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Requirements
+Follow these steps to run the project locally.
 
--   A modern web browser (Chrome, Edge, Firefox or Safari)
--   Visual Studio Code (recommended)
--   The Live Server extension for VS Code (optional)
+**1. Clone the repository**
 
-### Run Locally
+```bash
+git clone https://github.com/atheefarvin/taskflow-task-management-system.git
+```
 
-1.  Download or clone this repository.
+**2. Open the project folder**
 
-2.  Open the project folder in Visual Studio Code.
+```bash
+cd taskflow-task-management-system
+```
 
-3.  Open `index.html` in a browser.
+**3. Open in Visual Studio Code**
 
-    **Optional:** If Live Server is installed, right-click `index.html`
-    and select **Open with Live Server**.
+```bash
+code .
+```
 
-No package installation, build process, backend server or database is
-required.
+**4. Run the application**
 
-## How to Use
+Open `index.html` in your web browser or use the Live Server extension in Visual Studio Code.
 
-1.  Open TaskFlow in your browser.
-2.  Select **New task** to create a task.
-3.  Enter a task name and, optionally, a description and due date.
-4.  Choose a priority and status, then save the task.
-5.  Use the search field or priority filter to find tasks.
-6.  Use the edit icon to update a task or the delete icon to remove it.
-7.  Mark a task as completed using its checkbox.
-8.  Use the navigation menu to view all tasks, unfinished tasks or
-    completed tasks.
-9.  Select **Toggle appearance** to switch between light and dark mode.
+No additional dependencies or backend installation are required.
 
-## Data and Privacy
+## 💻 Application Usage
 
-TaskFlow stores task information in the browser's Local Storage on the
-device and browser where the application is used. This version does not
-include user accounts, cloud synchronization or a remote database.
-Clearing browser site data may remove saved tasks.
+1. Open the TaskFlow dashboard.
+2. Click the **New Task** button.
+3. Enter a task name and description.
+4. Select the priority and task status.
+5. Set a due date if required.
+6. Save the task.
+7. Update, complete or delete tasks whenever necessary.
 
-## Current Scope and Future Improvements
+## 🎯 Project Objectives
 
-The current version is a frontend demonstration. Possible future
-improvements include:
+- Develop practical frontend web development skills.
+- Understand JavaScript DOM manipulation and event handling.
+- Implement CRUD (Create, Read, Update and Delete) operations.
+- Understand browser-based data storage using Local Storage.
+- Create a responsive and user-friendly interface.
+- Improve problem-solving and application development skills.
 
--   User registration and secure authentication
--   Backend API and database integration
--   Cloud synchronization across devices
--   Task categories and project workspaces
--   Notifications and reminders
--   Drag-and-drop task organization
--   Automated testing and accessibility improvements
+## 🔮 Future Improvements
 
-## Learning Outcomes
+Some features that could be introduced in future versions:
 
-This project provides practical experience with:
+- User authentication and account management.
+- Backend integration using PHP or Node.js.
+- Database connectivity using MySQL.
+- Task reminders and notifications.
+- Calendar-based task scheduling.
+- Cloud-based data synchronization.
 
--   Structuring a web application with HTML
--   Styling responsive interfaces with CSS
--   Implementing interactive features using JavaScript
--   Managing application state in the browser
--   Persisting data with Local Storage
--   Using Git and GitHub for source-code version control
+## 👩‍💻 Developer
 
-## Author
+**M. N. Atheefa Farvin**
 
-**Atheefa Farvin**
+HND in Computing (Software)  
+Aspiring Frontend Developer | Software Developer
 
-GitHub: [@atheefarvin](https://github.com/atheefarvin)
+- GitHub: https://github.com/atheefarvin
+- LinkedIn: https://www.linkedin.com/in/atheefa-farvin-23b059397/
 
-------------------------------------------------------------------------
+## 📄 License
 
-If you find this project useful, feel free to explore the source code
-and suggest improvements.
+This project is available for educational and personal learning purposes.
+
+---
+
+*Developed as a personal portfolio project to practise frontend web development and improve practical programming skills.*
